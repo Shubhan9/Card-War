@@ -1,19 +1,46 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# ♠️ Card War 🃏
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple card game built with **HTML, CSS, and JavaScript** using the [Deck of Cards API](https://deckofcardsapi.com/).  
+Two players (you vs. the computer) draw cards from the same deck — the higher card wins the round, and the final winner is declared when the deck runs out.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+---
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## 🎮 Gameplay Rules
 
-Happy Coding!
+1. Click **"New Deck"** to shuffle and generate a fresh deck.
+2. Click **"Draw Cards"** to deal 2 cards:
+   - Left card = Computer’s card  
+   - Right card = Your card
+3. The player with the higher card value wins the round:
+   - Ace is the highest, 2 is the lowest.
+   - Face cards (Jack, Queen, King) rank above numbers.
+4. Scores are tracked throughout the game.
+5. When the deck runs out, the final winner is displayed at the top:
+   - 🖥️ *Computer wins!*  
+   - 🙋 *You win!*  
+   - 🤝 *It’s a tie!*
+
+---
+
+## ✨ Features
+
+- Fetches live cards from the **Deck of Cards API**.
+- Dynamic score tracking (computer vs. player).
+- Displays card images in real-time.
+- Declares the **final winner** when all cards are drawn.
+- Simple, responsive design.
+
+---
+
+## 🚀 Demo
+
+👉 [Add your live demo link here if deployed, e.g., GitHub Pages or Netlify]
+
+---
+
+## 🛠️ Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shubhan9/Card-War.git
+   cd Card-War

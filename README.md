@@ -3,6 +3,9 @@
 A simple card game built with **HTML, CSS, and JavaScript** using the [Deck of Cards API](https://deckofcardsapi.com/).  
 Two players (you vs. the computer) draw cards from the same deck — the higher card wins the round, and the final winner is declared when the deck runs out.
 
+<img src="./screenshots/demo1.jpg" alt="imag1" width="300"> 
+<img src="./screenshots/demo2.jpg" alt="imag2" width="300">
+
 ---
 
 ## 🎮 Gameplay Rules
@@ -29,12 +32,6 @@ Two players (you vs. the computer) draw cards from the same deck — the higher 
 - Displays card images in real-time.
 - Declares the **final winner** when all cards are drawn.
 - Simple, responsive design.
-
----
-
-## 🚀 Demo
-
-👉 [Add your live demo link here if deployed, e.g., GitHub Pages or Netlify]
 
 ---
 
